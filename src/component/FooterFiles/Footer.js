@@ -3,6 +3,7 @@ import FootDown from './FootDown'
 import FooterUp from './FooterUp'
 
 
+
 const Footer = () => {
   return (
     <div>

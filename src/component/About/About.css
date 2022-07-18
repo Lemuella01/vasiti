@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.landing{
+ display: flex;
+ background-color: orangered;
+width: 100%;
+ padding-left: 105px;
+ justify-content: space-between;
+}
+
+.words{
+  font-family: cursive;
+  color: blue;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  width: 380px;
+  font-weight: 600 ;
+  padding: 5px 4px;
+  margin-left: 45px;
+  
+}
+
+.landin-img img{
+  width: 350px;
+  height: 350px;
+  position: relative;
+top: 40px;
+margin-right: 125px;
+ border-radius: 50%;
+
+}
+
+.row{
+  background-color:rgb(220, 82, 32) ;
+  width: 400px;
+  height: 380px;
+ bottom: 35px;
+ left: 850px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.landin-text p{
+  color: rgb(59, 4, 4); 
+  width: 550px;
+  padding: 5px 50px;
+}
+
+.purchase{
+  outline: none;
+  margin-left: 150px;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(10, 2, 90);
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 23px;
+border: none;
+  background-color: brown;
+
+}
+
+@media (max-width:500px) {
+
+
+  .landing{
+    display: flex;
+    flex-direction: column;
+    height:150vh;
+    background-color: orangered;
+ 
+    padding-left: 25px;
+    justify-content: space-between;
+   
+
+
+}
+
+
+.words{
+  font-family: cursive;
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 380px;
+  font-weight: 600 ;
+  padding: 5px 4px;
+  margin-left: 20px;
+  font-size: 25px;
+  
+}
+
+.landin-img img{
+  width: 350px;
+  height: 350px;
+  position: relative;
+  left: 30px;
+  top: -18px;
+
+ border-radius: 50%;
+
+}
+
+.row{
+  background-color:rgb(220, 82, 32) ;
+  width: 400px;
+  height: 380px;
+top: 530px;
+ left: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.landin-text p{
+  color: rgb(59, 4, 4); 
+  width: 350px;
+  padding: 0px 20px;
+}
+
+.purchase{
+  outline: none;
+  margin-left: 80px;
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(10, 2, 90);
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 23px;
+border: none;
+  background-color: brown;
+
+}
+
+}

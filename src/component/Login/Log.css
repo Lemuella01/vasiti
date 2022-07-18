@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.containa1 {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+
+button {
+  background: #0563b4;
+  width: 80px;
+}
+
+.field input{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+
+
+
+}
+
+.fields input{
+  margin-left: 70px;
+  height: 30px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.containa1 h1{
+  margin-bottom: 20px; 
+
+}  
+

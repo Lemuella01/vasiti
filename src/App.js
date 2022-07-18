@@ -8,6 +8,7 @@ import SignUp from './component/Pages/SignUp';
 import Contact from './component/Pages/Contact';
 import Stories from './component/Pages/Stories';
 import Footer from './component/FooterFiles/Footer';
+import SignSuccess from './component/Sign/SignSuccess';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='login/' element={<Login/>}/>
         <Route  path='signup/' element={<SignUp/>}/>
         <Route path='/stories/' element={<Stories/>}/>
+        <Route path='/success/' element={<SignSuccess/>}/>
       </Routes>
          <Footer/>
        </Router>

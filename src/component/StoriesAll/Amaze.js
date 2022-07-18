@@ -14,7 +14,7 @@ const Amaze = () => {
 
       <div className="Amaze-img">
         <div className="round"></div>
-        <div> <img src={Testimonial} alt='image'/></div>
+        <div> <img src={Testimonial} alt='peopl'/></div>
       </div>
 
     </div>

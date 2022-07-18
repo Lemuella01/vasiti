@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact{
+  padding-left: 50px;
+  background-color: orangered;
+  height: 50vh;
+}
+
+
+.heading{
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.heading p{
+font-size: 15px;
+margin-left: 40px;
+padding: 20px 160px;
+
+}
+
+.bax{
+  display: flex;
+
+  
+}
+
+.location{
+  background-color: rgb(235, 82, 82);
+  width: 600px;
+  height:160px;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.location h4{
+  font-size: 30px;
+}
+
+.location h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.location p{
+  font-size: 13px;
+}
+
+
+.mails{
+  background-color: rgb(235, 82, 82);
+  width: 250px;
+  height:160px;
+  margin-left: 55px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.mails h4{
+  font-size: 30px;
+}
+
+.mails h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mails p{
+  font-size: 13px;
+}
+
+
+.phone{
+  background-color: rgb(235, 82, 82);
+  width: 250px;
+  height:160px;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.phone h4{
+  font-size: 30px;
+}
+
+.phone h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.phone  p{
+  font-size: 13px;
+}
+
+.iframe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  padding-left: 50px;
+  background-color:orangered;;
+  height: 60vh;
+}
+
+.iframe iframe{
+margin-left: 50px;
+width: 600px;
+height: 270px;
+margin-top: 60px;
+
+}
+
+
+.frame2{
+  margin-left: 56px;
+  background-color: rgb(235, 82, 82);
+  width: 540px;
+  padding: 40px;
+  height: 270px;
+margin-top: 60px;
+}
+
+.yourname input{
+ height: 40px;
+ width: 200px;
+ margin-left: 20px;
+ border-radius: 8px;
+
+ font-size: 15px;
+ background-color: rgb(224, 218, 218);
+}
+
+ .subject input{
+  height: 40px;
+  width: 425px;
+  margin: 5px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: rgb(224, 218, 218);
+ }
+
+ textarea{
+  height: 125px;
+  width: 300px;
+  margin: 5px 70px;
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: rgb(224, 218, 218);
+ }
+
+
+ @media (max-width:500px) {
+
+
+  .contact{
+  
+    background-color: orangered;
+    height: 50vh;
+  }
+  
+  
+  .heading{
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 20px;
+    
+  
+  }
+  
+  .heading p{
+  font-size: 15px;
+  margin-right: 50px;
+  padding: 8px 5px;
+  
+  }
+  
+  .bax{
+    display: flex;
+    margin-right: 40px;
+    
+  }
+  
+  .location{
+    background-color: rgb(235, 82, 82);
+    width: 350px;
+    height:100px;
+    margin-left: 1px;
+    text-align: center;
+    margin-top: 20px;
+  
+  
+  }
+  .location h4{
+    font-size: 15px;
+    padding: 1px 5px;
+  }
+  
+  .location h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .location p{
+    font-size: 10px;
+  }
+  
+  
+  .mails{
+    background-color: rgb(235, 82, 82);
+    width: 220px;
+    height:100px;
+    margin-left: 2px;
+    text-align: center;
+    margin-top: 20px;
+ 
+   
+  }
+  .mails h4{
+    font-size: 15px;
+  }
+  
+  .mails h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .mails p{
+    font-size: 10px;
+  }
+  
+  
+  .phone{
+    background-color: rgb(235, 82, 82);
+    width: 220px;
+    height:100px;
+    margin-left: 2px;
+    text-align: center;
+    margin-top: 20px;
+   
+   
+  }
+  .phone h4{
+    font-size: 15px;
+  }
+  
+  .phone h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .phone  p{
+    font-size: 10px;
+  }
+  
+  .iframe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-left: 0px;
+    background-color:orangered;;
+    height: 60vh;
+  }
+  
+  .iframe iframe{
+
+  width: 350px;
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 72px;
+  
+  }
+  
+  
+  .frame2{
+    display: none;
+   
+  }
+  
+  .yourname input{
+    display: none;
+  }
+  
+   .subject input{
+   display: none;
+   }
+  
+   textarea{
+    display: none;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+

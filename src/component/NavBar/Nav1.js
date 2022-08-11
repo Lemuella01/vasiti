@@ -10,11 +10,10 @@ const Nav1 = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle =()=>{
-    setToggle(!toggle);
-    
-   
+    setToggle(!toggle);}
 
-  }
+
+    
   return (
     
     <div className='nav-bar'>

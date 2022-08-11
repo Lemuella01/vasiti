@@ -24,10 +24,11 @@ const Abou = () => {
         </div>
 
       </div>
-      <div className="landin-img">
-        <div className="row"></div>
-        <img src={lemy} alt="Image" />
-      </div>
+      
+        <div className="row">
+          <img src={lemy} alt="Image" />
+          </div>
+    
 
     </div>
   )

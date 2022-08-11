@@ -11,10 +11,10 @@ const Amaze = () => {
         </h1>
         <p>Here is what customer and Vendors are saying about us, you can share your stories with us too.</p>
       </div>
-
-      <div className="Amaze-img">
-        <div className="round"></div>
-        <div> <img src={Testimonial} alt='peopl'/></div>
+<div>
+      <div className="Amaze">
+        <img src={Testimonial} alt='peopl'/>
+      </div>
       </div>
 
     </div>

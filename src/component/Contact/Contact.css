@@ -6,8 +6,9 @@
 
 .contact{
   padding-left: 50px;
-  background-color: orangered;
+  background-color:rgb(207, 238, 250);
   height: 50vh;
+  margin-top: 2px;
 }
 
 
@@ -31,7 +32,7 @@ padding: 20px 160px;
 }
 
 .location{
-  background-color: rgb(235, 82, 82);
+  background-color:skyblue;
   width: 600px;
   height:160px;
   margin-left: 50px;
@@ -55,7 +56,7 @@ padding: 20px 160px;
 
 
 .mails{
-  background-color: rgb(235, 82, 82);
+  background-color: skyblue;
   width: 250px;
   height:160px;
   margin-left: 55px;
@@ -78,7 +79,7 @@ padding: 20px 160px;
 
 
 .phone{
-  background-color: rgb(235, 82, 82);
+  background-color: skyblue;
   width: 250px;
   height:160px;
   margin-left: 40px;
@@ -106,7 +107,7 @@ padding: 20px 160px;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   padding-left: 50px;
-  background-color:orangered;;
+  background-color:rgb(207, 238, 250);
   height: 60vh;
 }
 
@@ -121,7 +122,7 @@ margin-top: 60px;
 
 .frame2{
   margin-left: 56px;
-  background-color: rgb(235, 82, 82);
+  background-color: skyblue;
   width: 540px;
   padding: 40px;
   height: 270px;
@@ -135,7 +136,7 @@ margin-top: 60px;
  border-radius: 8px;
 
  font-size: 15px;
- background-color: rgb(224, 218, 218);
+ background-color: white;
 }
 
  .subject input{
@@ -144,16 +145,17 @@ margin-top: 60px;
   margin: 5px 20px;
   border-radius: 8px;
   font-size: 18px;
-  background-color: rgb(224, 218, 218);
+  background-color: white;
  }
 
  textarea{
   height: 125px;
   width: 300px;
-  margin: 5px 70px;
+ margin-left:5px 20px;
   border-radius: 8px;
   font-size: 20px;
   background-color: rgb(224, 218, 218);
+
  }
 
 

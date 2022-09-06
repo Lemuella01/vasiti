@@ -23,7 +23,7 @@ const FooterUp = () => {
           
           <div className="box">
             <input className='box2' type='text' placeholder='enter your email address'  style={{color: 'white'}}/>
-            <button type='submit'>SUBSCRIBE</button>
+            <button className='subbut' type='submit'>SUBSCRIBE</button>
           </div>
 
 

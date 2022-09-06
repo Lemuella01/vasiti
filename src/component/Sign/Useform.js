@@ -31,7 +31,7 @@ const handleSubmit = (e) => {
 
   setErrors(Validate(values));
   setIsSubmitting(true);
- navigate("/success", {replace: true});
+ navigate("/login", {replace: true});
 };
 
 

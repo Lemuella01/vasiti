@@ -9,7 +9,7 @@
   display: flex;
   background-color: black;
   color: white;
-
+  margin-top: 50px;
 padding-left: 100px;
 height: 250px;
 }
@@ -55,17 +55,19 @@ border: none;
 font-weight: bold;
 height: 25px;
 margin-left: 20px;
+width: 300px
 
 
 }
 
-.box button{
+.box .subbut{
   border: none;
   border-radius: 5px;
   width: 100px;
   height: 25px;
-margin-left: 10px;
+  margin-left: 80px;
 font-size: 11px;
+margin-top: 20px;
 
 
 
@@ -170,14 +172,14 @@ font-size: 12px;
   
   }
   
-  .box button{
+  .box .subbut{
     border: none;
     border-radius: 5px;
     width: 100px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 80px;
   font-size: 11px;
-  
+  margin-top: 20px;
   
   }
 
